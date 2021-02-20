@@ -3,20 +3,20 @@ body {
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: aliceblue;
   max-width: 100vw;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   color: #333;
 }
 .main {
   height: 220vh;
-  text-transform: uppercase;
-}
-.title {
-  margin: auto;
-  text-align: center;
-  font-size: 32px;
-  margin-top: 80vh;
+  position: relative;
 }
 
-.title-2 {
+.main h1 {
+  font-size: 32px;
+  margin-top: 80vh;
+  text-transform: uppercase;
+}
+
+.title2 {
   margin-top: 20vh;
 }
